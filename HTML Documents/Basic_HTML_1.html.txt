@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML 1</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<p>
+    <font face="Arial" size="2" color="blue">
+        This text uses Arial, size 2, and a color name.
+    </font>
+</p>
+<img sc="dogg.jpg" alt="A cute dog sitting on the floor">
+
+
+
+<p>
+    <font face="Times New Roman" size="4" color="#FF5733">
+        This text uses Times New Roman, size 4, and a hex color code.
+    </font>
+</p>
+
+<p>
+    <font face="Courier New" size="6" color="green">
+        This text uses Courier New, size 6, and another color name.
+    </font>
+</p>
+
+</body>
+</html>
