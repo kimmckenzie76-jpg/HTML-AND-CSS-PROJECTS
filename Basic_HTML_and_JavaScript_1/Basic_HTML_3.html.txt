@@ -1,0 +1,33 @@
+Basic_HTML_3.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML and CSS</title>
+
+    <style>
+        div {
+            color: purple;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        p {
+            color: teal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        This text is inside a div element.
+    </div>
+
+    <p>
+        This paragraph uses a different font color.
+    </p>
+
+</body>
+</html>
