@@ -3,7 +3,7 @@
 
 /*Import link for the Mutka font from fonts.google.com*/
 
-
+/*updatefile*/
 
 body{
     background-color:white;
@@ -19,7 +19,7 @@ li{
 }
 
 a{
-    font-family: 'Roboto', sans-serif; /Font from fonts.google.com*/
+    font-family: 'Roboto', sans-serif; /*Font from fonts.google.com*/
     font-size: 20px;
     font-weight: 700;
     text-shadow: 1px .5px 4px rgba(46, 31, 31, 0.5);
@@ -225,7 +225,7 @@ td{
 table data elements*/
 td p{
     font-family: 'Roboto', sans-serif;
-    color rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 /*FORM CSS*/
