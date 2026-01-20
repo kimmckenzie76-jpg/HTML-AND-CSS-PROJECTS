@@ -7,12 +7,14 @@
     </head>
     <body>
         <!--NAVBAR-->
+        <nav class="nav-bar"></nav>
         <nav>
             <u1>
                 <li>
                     <a href="#">Home</a>
+                    <div class="rollover-menu">
                 </li>
-                <li>
+                <li class="drop">
                     <a href="#">Images</a>
                     <div>
                         <a href="#image1">Image 1</a>
@@ -25,21 +27,22 @@
         <!--IMAGES-->
         <section>
             <!--IMAGE ONE-->
-            <div id="image1">
+            <div class="image-container" id="image1">
                 <img src="images/Chochipcookie.jpg">
+                <div class="overlay"></div>
             </div>
             <!--IMAGE TWO-->
-            <div id="image2">
-                <img src="images/dog.jpeg">
+            <div class="image-container" id="image2">
+                <img src="images/dog.jpeg" class="zoom">
             </div>
             <!--IMAGE THREE-->
-            <div id="image3">
+            <div class="image-container" id="image3">
                 <img src="images/golden retriever dog.jpg">
             </div>
         </section>
         <!--FOOTER-->
         <footer>
-            <div>
+            <div class="footer-text">
                 <p>The Tech Academy&copy;</p>
             </div>
         </footer>
