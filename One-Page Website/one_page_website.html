@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>One Page Website</title>
+    <link rel="stylesheet" href="CSS/one_page_website.css">
+
 </head>
 
 <body>
@@ -10,12 +12,12 @@
 <!-- NAVIGATION (Instructor Style) -->
 <nav>
     <ul>
-        <a href="#home"><li>Home</li></a>
-        <a href="#gallery"><li>Gallery</li></a>
-        <a href="#contact"><li>Contact</li></a>
-        <a href="#video"><li>Video</li></a>
-        <a href="#footer"><li>Footer</li></a>
-    </ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#footer">Footer</a></li>
+        </ul>
 </nav>
 
 <!-- HOME SECTION -->
@@ -41,14 +43,15 @@
     <h2>Contact Us</h2>
 
     <form>
-        <label>Name:</label><br>
-        <input type="text" name="name"><br><br>
+        <label for="name">Name:</label><br>
+        <input id="name" type="text" name="name"><br><br>
 
-        <label>Email:</label><br>
-        <input type="email" name="email"><br><br>
+        <label for="email">Email:</label><br>
+        <input id="email" type="email" name="email"><br><br>
 
-        <label>Message:</label><br>
-        <input type="text" name="message"><br><br>
+        <label for="message">Message:</label><br>
+        <input id="message" type="text" name="message"><br><br>
+
 
         <input type="submit" value="Send">
     </form>
