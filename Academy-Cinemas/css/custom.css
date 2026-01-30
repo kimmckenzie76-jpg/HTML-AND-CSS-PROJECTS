@@ -4,9 +4,8 @@
 /*Font Yesteryear from fonts.google.com*/
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 
-/*Creates global CSS variables that can be reused*/
+/* Creates global CSS variables that can be reused throughout the file */
 
-throughout the file*/
 :root{
     --main-color: rgb(126, 133, 130);
     --main-color-accent: rgb(237, 192, 3);
@@ -39,7 +38,7 @@ body{
 }
 
 /*Affects the title in the navbar Academy Cinemas*/
-.navbar.brand{
+.navbar-brand{
     color: var(--main-color-accent);
     font-family: var(--main-font-family);
     font-size: 45px;
