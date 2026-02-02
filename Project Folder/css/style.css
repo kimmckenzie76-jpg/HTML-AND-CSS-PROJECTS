@@ -160,3 +160,28 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.video-overlay-container {
+    position: relative;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.overlay-video {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.video-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
