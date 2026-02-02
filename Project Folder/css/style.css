@@ -116,6 +116,14 @@ body {
     text-align: center;
     font-weight: bold;
 }
+
+.sample-video {
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    border-radius: 20px;
+}
+
 .fade-container {
     position: relative;
     width: 300px;
