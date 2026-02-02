@@ -1,0 +1,10 @@
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 300px;
+
+    border-radius: 20px;
+    filter: brightness(110%);
+}
