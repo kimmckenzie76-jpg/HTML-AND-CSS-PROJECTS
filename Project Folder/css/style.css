@@ -25,6 +25,32 @@
     background-color: lightgray;
 }
 
+.image-container {
+    position: relative;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.overlay-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+
 
 .site-footer {
     text-align: center;
