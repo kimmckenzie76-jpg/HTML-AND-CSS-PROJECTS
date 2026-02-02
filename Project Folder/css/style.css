@@ -102,6 +102,15 @@ body {
     color: darkblue;
 }
 
+.hover-paragraph {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.hover-paragraph:hover {
+    color: red;
+}
 
 .site-footer {
     text-align: center;
