@@ -8,3 +8,25 @@
     border-radius: 20px;
     filter: brightness(110%);
 }
+
+.my-table {
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.my-table th,
+.my-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.my-table th {
+    background-color: lightgray;
+}
+
+
+.site-footer {
+    text-align: center;
+    font-weight: bold;
+}
