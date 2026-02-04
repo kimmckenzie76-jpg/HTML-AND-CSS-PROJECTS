@@ -10,19 +10,36 @@
 <body>
   <header class="site-header" id="top">
     <nav class="nav">
-      <a class="logo" href="#top">KM</a>
+      <a class="logo" href="#top" aria-label="Back to top">KM</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a class="github" href="https://github.com/kimmckenzie76-jpg" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="#github">GitHub</a></li>
+
+        <li>
+          <a class="github" href="https://github.com/kimmckenzie76-jpg" target="_blank" rel="noopener">
+            My GitHub
+          </a>
+        </li>
       </ul>
     </nav>
 
+
     <section class="hero">
-      <h1>Hi, I’m Kim McKenzie.</h1>
+    <blockquote class="quote">
+  “The computer programmer is a creator of universes for which he alone is the lawgiver.”
+  <span class="quote-author">— Joseph Weizenbaum</span>
+</blockquote>
+      <h1>Welcome! I am Kim McKenzie.</h1>
+      <p> I am an operations leader with over 20 years of experience leading teams to success. 
+        I decided to learn more about AI and what goes on behind the scenes, which led me to pursue
+         web development and coding. I am a developer in progress who enjoys 
+        learning, building, and improving every day.
+      </p>
       <p>
-        I am learning how to build clean, accessible websites and I’m expanding my skills in HTML, CSS, and Bootstrap.
+        I enjoy turning ideas into simple, user-friendly web experiences and continuously improving my
+         technical skills.
       </p>
       <div class="hero-buttons">
         <a class="btn" href="#projects">View Projects</a>
@@ -35,44 +52,107 @@
     <section class="section" id="about">
       <h2>About</h2>
       <p>
-        I’m a detail-oriented professional with strong operations and leadership experience, currently
-        building web development skills through hands-on projects. I enjoy creating organized layouts,
-        clear navigation, and user-friendly pages.
+        I am a detail-oriented professional with strong operations and leadership experience, 
+        currently building web development skills through hands-on projects. I enjoy creating 
+        organized layouts, clear navigation, and user-friendly pages, and I am interested in learning 
+        website animation in the future.
+
       </p>
       <p class="small">
         Skills: HTML • CSS • Bootstrap • Accessibility basics • Git/GitHub
       </p>
     </section>
 
-    <section class="section" id="projects">
-      <h2>Projects</h2>
+   <section id="projects" class="projects">
+  <h2>Projects</h2>
+  <p class="projects-intro">
+    Here are a few projects I’ve built while learning web development. More coming soon!
+  </p>
 
-      <div class="grid">
-        <article class="card">
-          <h3>Simple Recipes</h3>
-          <p>A multi-section site with navigation, layout styling, and an About section.</p>
-          <a class="card-link" href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/Simple-Recipes" target="_blank" rel="noopener">
-            View on GitHub →
-          </a>
-        </article>
+  <div class="projects-grid">
+    <!-- Project 1 -->
+<article class="project-card">
+  <img
+    src="images/project1.jpg"
+    alt="Colorful flower photography used as project placeholder image"
+  />
+  <div class="project-content">
+    <h3>One-Page Website</h3>
+    <p>
+      A responsive one-page layout featuring navigation, sections, and accessible design basics.
+    </p>
+    <div class="project-links">
+      <a
+        class="btn btn-outline btn-small"
+        href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/One-Page%20Website"
+        target="_blank"
+        rel="noopener"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+</article>
 
-        <article class="card">
-          <h3>Academy Cinemas</h3>
-          <p>A Bootstrap-based page with custom styling and responsive layout.</p>
-          <a class="card-link" href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/Academy-Cinemas" target="_blank" rel="noopener">
-            View on GitHub →
-          </a>
-        </article>
 
-        <article class="card">
-          <h3>One-Page Website</h3>
-          <p>A one-page layout with clear sections, navigation anchors, and accessibility improvements.</p>
-          <a class="card-link" href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/One-Page%20Website" target="_blank" rel="noopener">
-            View on GitHub →
+    <!-- Project 2 -->
+    <article class="project-card">
+      <img
+        src="images/project2.jpg"
+        alt="Close-up of HTML code displayed on a computer screen"
+      />
+      <div class="project-content">
+        <h3>Simple Recipes</h3>
+        <p>
+          A multi-section site with navigation, layout styling, and an About section.
+        </p>
+        <div class="project-links">
+          <a
+            class="btn btn-outline btn-small"
+            href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/Simple-Recipes"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
           </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project-card">
+      <img
+        src="images/project3.jpg"
+        alt="Illustration of a professional briefcase icon"
+      />
+      <div class="project-content">
+        <h3>Academy Cinemas</h3>
+        <p>
+          A Bootstrap-based page with custom styling and a responsive layout.
+        </p>
+       <div class="project-links">
+  <a
+    class="btn btn-outline btn-small"
+    href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/Academy-Cinemas"
+    target="_blank"
+    rel="noopener"
+  >
+    GitHub
+  </a>
+</div>
+
+          </div>
         </article>
       </div>
     </section>
+
+<section class="section" id="github">
+  <h2>GitHub</h2>
+  <p>You can view more of my coding projects on GitHub:</p>
+  <a class="btn" href="https://github.com/kimmckenzie76-jpg" target="_blank" rel="noopener">
+    Visit My GitHub
+  </a>
+</section>
 
     <section class="section" id="contact">
       <h2>Contact</h2>
@@ -80,12 +160,12 @@
       <form class="contact-form" action="#" method="post">
         <label>
           Name
-          <input type="text" name="name" required />
+          <input type="text" name="name" autocomplete="name" required />
         </label>
 
         <label>
           Email
-          <input type="email" name="email" required />
+          <input type="email" name="email" autocomplete="email" required />
         </label>
 
         <label>
@@ -107,7 +187,6 @@
   </footer>
 
   <script>
-    // Optional tiny enhancement (won't hurt your HTML/CSS grade)
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
