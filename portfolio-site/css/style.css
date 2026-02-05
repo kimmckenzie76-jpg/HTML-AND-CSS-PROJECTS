@@ -385,19 +385,16 @@ html {
 }
 
 /* HERO BACKGROUND VIDEO */
+/* HERO BACKGROUND VIDEO */
 .hero {
   position: relative;
   overflow: hidden;
   border-radius: 18px;
   padding: 80px 18px;
   min-height: 460px;
-}
-
-.hero {
   max-width: 980px;
   margin: 34px auto 0;
 }
-
 
 .hero-media {
   position: absolute;
@@ -414,10 +411,10 @@ html {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0, 0, 0, 0.55);
 }
 
-/* Keep hero content above video */
+/* Keep hero text above video */
 .hero > *:not(.hero-media) {
   position: relative;
   z-index: 1;
