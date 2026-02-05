@@ -69,6 +69,36 @@ body {
 }
 
 .hero {
+  position: relative;
+  padding: 80px 18px;
+}
+
+.hero-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+
+/* Keep your hero text above the video */
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
   text-align: left;
 }
 
