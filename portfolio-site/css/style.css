@@ -62,73 +62,7 @@ body {
   border: 1px solid rgba(255,255,255,0.25);
 }
 
-.hero {
-  max-width: 980px;
-  margin: 34px auto 0;
-  padding: 18px 0 0;
-}
 
-.hero {
-  position: relative;
-  padding: 80px 18px;
-}
-
-.hero-media {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  border-radius: 18px;
-}
-
-.hero-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.55);
-}
-
-/* Keep your hero text above the video */
-.hero > * {
-  position: relative;
-  z-index: 1;
-}
-
-.hero {
-  text-align: left;
-}
-
-.hero h1 {
-  font-size: 42px;
-  margin-bottom: 12px;
-}
-
-.hero p {
-  max-width: 60ch;
-  font-size: 17px;
-}
-
-.hero h1 {
-  margin: 0 0 10px;
-  font-size: 40px;
-  line-height: 1.1;
-}
-
-.hero p {
-  margin: 0 0 18px;
-  color: var(--muted);
-  max-width: 62ch;
-}
-
-.hero-buttons {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
 
 .section {
   max-width: 980px;
@@ -144,13 +78,6 @@ body {
 .small {
   color: var(--muted);
   font-size: 14px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 18px;
 }
 
 .card {
@@ -261,13 +188,6 @@ input, textarea {
   flex-direction: column;
 }
 
-.project-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  display: block;
-}
-
 .project-content {
   padding: 16px;
   display: grid;
@@ -327,9 +247,7 @@ input, textarea {
 .project-card {
   overflow: hidden;
 }
-body {
-  background: red;
-}
+
 .quote {
   margin: 0 0 18px;
   padding-left: 14px;
@@ -352,48 +270,19 @@ html {
   padding: 70px 18px;
 }
 
-/* HERO VIDEO BACKGROUND */
+
+/* HERO (video background) */
 .hero {
   position: relative;
   overflow: hidden;
   border-radius: 18px;
-  padding: 70px 18px;
-}
-
-.hero-media {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-
-.hero-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-}
-
-/* Keep hero text above the video */
-.hero > *:not(.hero-media) {
-  position: relative;
-  z-index: 1;
-}
-
-/* HERO BACKGROUND VIDEO */
-/* HERO BACKGROUND VIDEO */
-.hero {
-  position: relative;
-  overflow: hidden;
-  border-radius: 18px;
-  padding: 80px 18px;
   min-height: 460px;
+
   max-width: 980px;
   margin: 34px auto 0;
+  padding: 80px 18px;
+
+  text-align: left;
 }
 
 .hero-media {
@@ -414,8 +303,21 @@ html {
   background: rgba(0, 0, 0, 0.55);
 }
 
-/* Keep hero text above video */
+/* Put hero content above video */
 .hero > *:not(.hero-media) {
   position: relative;
   z-index: 1;
+}
+
+.hero h1 {
+  margin: 0 0 12px;
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.hero p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  max-width: 60ch;
+  font-size: 17px;
 }
