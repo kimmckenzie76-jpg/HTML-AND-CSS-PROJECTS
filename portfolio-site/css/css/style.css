@@ -139,7 +139,17 @@ body {
 .contact-form {
   display: grid;
   gap: 12px;
-  max-width: 520px;
+  max-width: 520px;       /* Keeps form from being too wide */
+  margin: 0 auto;          /* Centers horizontally */
+  padding: 20px;           /* Adds space inside the form */
+  background: rgba(255, 255, 255, 0.05); /* Optional: subtle background */
+  border-radius: 10px;     /* Rounded corners for style */
+}
+
+@media (max-width: 600px) {
+  .contact-form {
+    width: 90%;           /* Makes form almost full width on small screens */
+  }
 }
 
 label {
@@ -285,7 +295,7 @@ input, textarea {
   overflow: hidden;
 }
 body {
-  background: red;
+  background: rgb(153, 88, 88);
 }
 .quote {
   margin: 0 0 18px;
@@ -299,4 +309,34 @@ body {
   margin-top: 8px;
   color: var(--text);
   font-weight: 600;
+}
+
+.hero-media {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  margin-bottom: 24px;     
+}
+
+.hero-video {
+  width: 95%;     
+  max-width: 1000px; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); 
+  display: block;
+}
+
+.split-media {
+  max-width: 100%;       
+  margin: 0 auto;        
+  display: flex;         
+  justify-content: center;
+}
+
+.split-media img {
+  width: 100%;           
+  height: auto;          
+  max-width: 1000px;      
+  border-radius: 8px;   
+  display: block;
 }
